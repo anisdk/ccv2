@@ -26,14 +26,40 @@
         },
         {
             "name": "accstorefront",
+            "properties": [
+                {
+                    "key": "spring.session.enabled",
+                    "value": "true"
+                },
+                {
+                    "key": "spring.session.yacceleratorstorefront.save",
+                    "value":"async"
+                },
+                {
+                    "key": "spring.session.yacceleratorstorefront.cookie.name",
+                    "value": "JSESSIONID"
+                },
+                {
+                    "key": "spring.session.yacceleratorstorefront.cookie.path",
+                    "value": "/"
+                },
+                {
+                    "key":"storefrontContextRoot",
+                    "value":""
+                },
+                                {
+                    "key":"storefront.wro4j.enabled",
+                    "value":"true"
+                }
+            ],
             "webapps": [
                 {
                     "name": "mediaweb",
                     "contextPath": "/medias"
                 },
                 {
-                    "name": "yacceleratorstorefront",
-                    "contextPath": "/yacceleratorstorefront"
+                    "name": "mycustomstorefront",
+                    "contextPath": ""
                 },
                 {
                     "name": "acceleratorservices",
