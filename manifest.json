@@ -2,6 +2,12 @@
     "commerceSuiteVersion": "1811.5",
     "extensions": [
     "mcc",
+    "trainingfulfilmentprocess",
+    "trainingcore",
+    "trainingfacades",
+    "traininginitialdata",
+    "trainingbackoffice",
+    "trainingstorefront",
     "adaptivesearchsolr",
     "adaptivesearchbackoffice",
     "adaptivesearchsamplesaddon",
@@ -9,11 +15,6 @@
     "commerceservicesbackoffice",
     "solrfacetsearchbackoffice",
     "solrserver",
-    "yacceleratorcockpits",
-    "yacceleratorbackoffice",
-    "yacceleratorinitialdata",
-    "yacceleratorfulfilmentprocess",
-    "yacceleratorstorefront",
     "ycommercewebservices",
     "ycommercewebservicestest",
     "electronicsstore",
@@ -110,7 +111,7 @@
                     "contextPath": "/medias"
                 },
                 {
-                    "name": "mycustomstorefront",
+                    "name": "trainingstorefront",
                     "contextPath": ""
                 },
                 {
