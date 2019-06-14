@@ -2,6 +2,12 @@
     "commerceSuiteVersion": "1811.5",
     "extensions": [
     "mcc",
+    "trainingfulfilmentprocess",
+    "trainingcore",
+    "trainingfacades",
+    "traininginitialdata",
+    "trainingbackoffice",
+    "trainingstorefront",
     "adaptivesearchsolr",
     "adaptivesearchbackoffice",
     "adaptivesearchsamplesaddon",
@@ -105,7 +111,7 @@
                     "contextPath": "/medias"
                 },
                 {
-                    "name": "yacceleratorstorefront",
+                    "name": "trainingstorefront",
                     "contextPath": ""
                 },
                 {
