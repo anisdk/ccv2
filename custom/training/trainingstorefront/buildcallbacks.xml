@@ -379,7 +379,6 @@
 			</containsExact>
 			<trainingstorefront_compileuisrc_executor/>
 			<create_empty_wro_addons_xml/>
-			<fix_root_node_for_wro_addons_xml/>
 		</sequential>
 	</macrodef>
 
