@@ -388,7 +388,7 @@
 		<sequential>
 			<echo message="trainingstorefront_before_build"/>
 			<trainingstorefront_generatevariables/>
-			<delete_wro_addons_xml/>
+			<!-- <delete_wro_addons_xml/> -->
 			<foreachext>
 				<do>
 					<if>
@@ -597,7 +597,7 @@
 			<!-- Addon folders in storefronts are always cleaned (even if there is no addonsupport on localextension list) -->
 			<addonclean/>
 			<commonwebclean/>
-			<delete_wro_addons_xml/>
+			<!-- <delete_wro_addons_xml/> -->
 		</sequential>
 	</macrodef>
 
