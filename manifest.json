@@ -9,7 +9,6 @@
     "traininginitialdata",
     "trainingbackoffice",
     "trainingstorefront",
-    "wrokaround",
     "adaptivesearchsolr",
     "adaptivesearchbackoffice",
     "adaptivesearchsamplesaddon",
@@ -61,6 +60,84 @@
     "assistedservicepromotionaddon",
     "pcmbackofficesamplesaddon"
     ],
+    "storefrontAddons" : [
+
+        {
+            "addon": "promotionenginesamplesaddon",
+            "storefront": "trainingstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "smarteditaddon",
+            "storefront": "trainingstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "textfieldconfiguratortemplateaddon",
+            "storefront": "trainingstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "assistedservicestorefront",
+            "storefront": "trainingstorefront",
+            "template": "yacceleratorstorefront"
+        },
+               {
+            "addon": "promotionenginesamplesaddon",
+            "storefront": "trainingstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "smarteditaddon",
+            "storefront": "trainingstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "textfieldconfiguratortemplateaddon",
+            "storefront": "trainingstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "assistedservicestorefront",
+            "storefront": "trainingstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "assistedservicepromotionaddon",
+            "storefront": "trainingstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "customerticketingaddon",
+            "storefront": "trainingstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "orderselfserviceaddon",
+            "storefront": "trainingstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "adaptivesearchsamplesaddon",
+            "storefront": "trainingstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "multicountrysampledataaddon",
+            "storefront": "trainingstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "pcmbackofficesamplesaddon",
+            "storefront": "trainingstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "personalizationsearchsamplesaddon",
+            "storefront": "trainingstorefront",
+            "template": "yacceleratorstorefront"
+        }
+            ],
          "aspects": [
         {
             "name": "backoffice",
