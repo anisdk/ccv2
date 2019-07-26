@@ -60,6 +60,36 @@
     "assistedservicepromotionaddon",
     "pcmbackofficesamplesaddon"
     ],
+    "propertoes": [
+        {
+            "key": "mail.from",
+            "value": "cuppy-no-reply@hybris.de"
+        },
+        {
+            "key": "mail.replyto",
+            "value": "cuppy-no-reply@hybris.de"
+        },
+        {
+            "key": "mail.smtp.server",
+            "value": "192.168.0.115"
+        },
+        {
+            "key": "mail.smtp.port",
+            "value": "1024"
+        },
+        {
+            "key": "mail.smtp.user",
+            "value": "anything"
+        },
+        {
+            "key": "mail.smtp.password",
+            "value": "anything"
+        },
+        {
+            "key": "mail.smtp.starttls.enable",
+            "value": "true"
+        }
+    ],
     "storefrontAddons" : [
 
         {
