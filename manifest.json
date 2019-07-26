@@ -2,13 +2,6 @@
     "commerceSuiteVersion": "1811.5",
     "extensions": [
     "mcc",
-    "trainingfulfilmentprocess",
-    "trainingcore",
-    "trainingfacades",
-    "trainingtest",
-    "traininginitialdata",
-    "trainingbackoffice",
-    "trainingstorefront",
     "adaptivesearchsolr",
     "adaptivesearchbackoffice",
     "adaptivesearchsamplesaddon",
@@ -60,7 +53,7 @@
     "assistedservicepromotionaddon",
     "pcmbackofficesamplesaddon"
     ],
-    "propertoes": [
+    "properties": [
         {
             "key": "mail.from",
             "value": "cuppy-no-reply@hybris.de"
