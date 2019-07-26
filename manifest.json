@@ -124,10 +124,6 @@
                 {
                     "key":"storefrontContextRoot",
                     "value":""
-                },
-                                {
-                    "key":"storefront.wro4j.enabled",
-                    "value":"true"
                 }
             ],
             "webapps": [
