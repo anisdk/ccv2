@@ -56,6 +56,17 @@
     ],
     "properties": [
         {
+            "location": "/config/local.properties"
+        },
+        {
+            "key": "fields.regex.city",
+            "value": "^([A-Za-z0-9 À-ÖØ-öø-ſ-–β/\\()'.',]){1,35}$"
+        },
+        {
+            "key": "fields.regex.village",
+            "value": "^([A-Za-z0-9 \u00C0-\u00D6\u00D8-\u00F6\u00F8-\u017F\u002D–β/\\()'.',]){1,35}$"
+        },
+        {
             "key": "mail.from",
             "value": "cuppy-no-reply@hybris.de"
         },
