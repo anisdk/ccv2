@@ -54,10 +54,14 @@
     "assistedservicepromotionaddon",
     "pcmbackofficesamplesaddon"
     ],
+    "useConfig": {
+        "properties": [
+            {
+                "location": "/config/local.properties"
+            }
+        ]
+    },
     "properties": [
-        {
-            "location": "/config/local.properties"
-        },
         {
             "key": "fields.regex.city",
             "value": "^([A-Za-z0-9 À-ÖØ-öø-ſ-–β/\\()'.',]){1,35}$"
