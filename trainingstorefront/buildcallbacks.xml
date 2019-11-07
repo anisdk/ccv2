@@ -1074,7 +1074,7 @@
         	
     </macrodef>
     	
-    <patternset id="extension.trainingstorefront.binary.filter">
+    <!-- <patternset id="extension.trainingstorefront.binary.filter">
         		
         <patternset refid="extension.binary.filter"/>
         		
@@ -1104,7 +1104,7 @@
         		
         <exclude name="resources/wro_addons.xml"/>
         	
-    </patternset>
+    </patternset> -->
     	
     <target description="compile the _ui-src folder in _ui" name="trainingstorefront_compileuisrc">
         		
