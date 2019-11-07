@@ -1,104 +1,95 @@
 {
-    "commerceSuiteVersion": "1811.5",
+    "commerceSuiteVersion": "1905",
     "extensions": [
-    "training",
-    "mcc",
-    "adaptivesearchsolr",
-    "adaptivesearchbackoffice",
-    "adaptivesearchsamplesaddon",
-    "adaptivesearchwebservices",
-    "commerceservicesbackoffice",
-    "solrfacetsearchbackoffice",
-    "solrserver",
-    "ycommercewebservices",
-    "ycommercewebservicestest",
-    "yacceleratorstorefront",
-    "electronicsstore",
-    "apparelstore",
-    "acceleratorwebservicesaddon",
-    "orderselfserviceaddon",
-    "customersupportbackoffice",
-    "customerticketingaddon",
-    "commerceorgsamplesaddon",
-    "rulebuilderbackoffice",
-    "couponbackoffice",
-    "droolsruleengineservices",
-    "couponfacades",
-    "promotionenginesamplesaddon",
-    "cmswebservices",
-    "smarteditwebservices",
-    "cmssmarteditwebservices",
-    "permissionswebservices",
-    "smarteditaddon",
-    "cmssmartedit",
-    "cmsbackoffice",
-    "cmsoccaddon",
-    "previewpersonalizationweb",
-    "personalizationcmsweb",
-    "personalizationsmartedit",
-    "personalizationpromotionssmartedit",
-    "personalizationsampledataaddon",
-    "personalizationpromotionssampledataaddon",
-    "personalizationpromotions",
-    "personalizationpromotionsweb",
-    "personalizationservicesbackoffice",
-    "personalizationpromotionsbackoffice",
-    "personalizationcmsbackoffice",
-    "personalizationsearchbackoffice",
-    "personalizationsearchsmartedit",
-    "personalizationsearchweb",
-    "personalizationsearchsamplesaddon",
-    "textfieldconfiguratortemplatebackoffice",
-    "textfieldconfiguratortemplateaddon",
-    "assistedservicestorefront",
-    "assistedservicewebservices",
-    "assistedservicepromotionaddon",
-    "pcmbackofficesamplesaddon"
-    ],
-    "useConfig": {
-        "properties": [
-            {
-                "location": "/config/local.properties"
-            }
-        ]
-    },
-    "properties": [
-        {
-            "key": "fields.regex.manifest1",
-            "value": "^([A-Za-z0-9 À-ÖØ-öø-ſ-–β/\\()'.',]){1,35}$"
-        },
-        {
-            "key": "fields.regex.manifest2",
-            "value": "^([A-Za-z0-9 \u00C0-\u00D6\u00D8-\u00F6\u00F8-\u017F\u002D–β/\\()'.',]){1,35}$"
-        },
-        {
-            "key": "mail.from",
-            "value": "cuppy-no-reply@hybris.de"
-        },
-        {
-            "key": "mail.replyto",
-            "value": "cuppy-no-reply@hybris.de"
-        },
-        {
-            "key": "mail.smtp.server",
-            "value": "192.168.0.115"
-        },
-        {
-            "key": "mail.smtp.port",
-            "value": "1024"
-        },
-        {
-            "key": "mail.smtp.user",
-            "value": "anything"
-        },
-        {
-            "key": "mail.smtp.password",
-            "value": "anything"
-        },
-        {
-            "key": "mail.smtp.starttls.enable",
-            "value": "true"
-        }
+        "trainingstorefront",
+        "adaptivesearchsolr",
+        "adaptivesearchbackoffice",
+        "adaptivesearchsamplesaddon",
+        "adaptivesearchwebservices",
+        "commerceservicesbackoffice",
+        "solrfacetsearchbackoffice",
+        "solrserver",
+        "electronicsstore",
+        "apparelstore",
+        "captchaaddon",
+        "acceleratorwebservicesaddon",
+        "commerceorgsamplesaddon",
+        "orderselfserviceaddon",
+        "rulebuilderbackoffice",
+        "couponbackoffice",
+        "droolsruleengineservices",
+        "couponfacades",
+        "couponservices",
+        "promotionenginesamplesaddon",
+        "assistedservicestorefront",
+        "assistedservicewebservices",
+        "assistedserviceyprofileaddon",
+        "assistedservicecustomerinterestsaddon",
+        "assistedservicepromotionaddon",
+        "customerticketingaddon",
+        "customersupportbackoffice",
+        "profiletagaddon",
+        "profileservices",
+        "textfieldconfiguratortemplatebackoffice",
+        "textfieldconfiguratortemplateaddon",
+        "cmswebservices",
+        "smarteditwebservices",
+        "cmssmarteditwebservices",
+        "permissionswebservices",
+        "smarteditaddon",
+        "cmssmartedit",
+        "cmsbackoffice",
+        "cmsoccaddon",
+        "consignmenttrackingaddon",
+        "consignmenttrackingmock",
+        "consignmenttrackingbackoffice",
+        "notificationaddon",
+        "customerinterestsaddon",
+        "stocknotificationaddon",
+        "configurablebundleaddon",
+        "previewpersonalizationweb",
+        "personalizationcmsweb",
+        "personalizationsmartedit",
+        "personalizationpromotionssmartedit",
+        "personalizationsampledataaddon",
+        "personalizationpromotionssampledataaddon",
+        "personalizationyprofile",
+        "personalizationpromotions",
+        "personalizationpromotionsweb",
+        "personalizationservicesbackoffice",
+        "personalizationpromotionsbackoffice",
+        "personalizationcmsbackoffice",
+        "personalizationintegrationbackoffice",
+        "personalizationsearchbackoffice",
+        "personalizationsearchsmartedit",
+        "personalizationsearchweb",
+        "personalizationsearchsamplesaddon",
+        "personalizationyprofilesampledataaddon",
+        "personalizationaddon",
+        "pcmbackofficesamplesaddon",
+        "xyformsbackoffice",
+        "xyformsstorefrontcommons",
+        "xyformssamples",
+        "xyformsweb",
+        "platformbackoffice",
+        "orbeonweb",
+        "consignmenttrackingoccaddon",
+        "customerinterestsoccaddon",
+        "notificationoccaddon",
+        "kymaintegrationbackoffice",
+        "outboundservices",
+        "outboundsync",
+        "odata2webservices",
+        "odata2webservicesfeaturetests",
+        "integrationbackoffice",
+        "integrationmonitoringbackoffice",
+        "outboundsyncbackoffice",
+        "merchandisingaddon",
+        "merchandisingcmswebservices",
+        "merchandisingsmartedit",
+        "merchandisingservices",
+        "merchandisingservicesbackoffice",
+        "merchandisingstorefrontsampledataaddon"
     ],
          "aspects": [
         {
@@ -140,6 +131,10 @@
                 {
                     "key":"storefrontContextRoot",
                     "value":""
+                },
+                                {
+                    "key":"storefront.wro4j.enabled",
+                    "value":"true"
                 }
             ],
             "webapps": [
@@ -148,7 +143,7 @@
                     "contextPath": "/medias"
                 },
                 {
-                    "name": "yacceleratorstorefront",
+                    "name": "trainingstorefront",
                     "contextPath": ""
                 },
                 {
