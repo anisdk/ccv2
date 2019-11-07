@@ -91,6 +91,23 @@
         "merchandisingservicesbackoffice",
         "merchandisingstorefrontsampledataaddon"
     ],
+    "storefrontAddons": [
+        {
+            "addon": "customerticketingaddon",
+            "storefront": "trainingstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "smarteditaddon",
+            "storefront": "trainingstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "assistedservicestorefront",
+            "storefront": "trainingstorefront",
+            "template": "yacceleratorstorefront"
+        }
+    ],
          "aspects": [
         {
             "name": "backoffice",
