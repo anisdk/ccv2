@@ -103,7 +103,22 @@
             "template": "yacceleratorstorefront"
         },
         {
-            "addon": "assistedservicestorefront",
+            "addon": "notificationaddon",
+            "storefront": "trainingstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "configurablebundleaddon",
+            "storefront": "trainingstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "personalizationaddon",
+            "storefront": "trainingstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "captchaaddon",
             "storefront": "trainingstorefront",
             "template": "yacceleratorstorefront"
         }
