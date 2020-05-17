@@ -1,110 +1,90 @@
 {
-    "commerceSuiteVersion": "1905",
+    "commerceSuiteVersion": "1808.23",
     "extensions": [
-        "trainingstorefront",
+        "smartedit",
+        "backoffice",
         "adaptivesearchsolr",
         "adaptivesearchbackoffice",
-        "adaptivesearchsamplesaddon",
         "adaptivesearchwebservices",
         "commerceservicesbackoffice",
         "solrfacetsearchbackoffice",
         "solrserver",
-        "electronicsstore",
-        "apparelstore",
-        "captchaaddon",
-        "acceleratorwebservicesaddon",
-        "commerceorgsamplesaddon",
-        "orderselfserviceaddon",
         "rulebuilderbackoffice",
         "couponbackoffice",
         "droolsruleengineservices",
         "couponfacades",
-        "couponservices",
-        "promotionenginesamplesaddon",
-        "assistedservicestorefront",
-        "assistedservicewebservices",
-        "assistedserviceyprofileaddon",
-        "assistedservicecustomerinterestsaddon",
-        "assistedservicepromotionaddon",
-        "customerticketingaddon",
-        "customersupportbackoffice",
-        "profiletagaddon",
-        "profileservices",
-        "textfieldconfiguratortemplatebackoffice",
-        "textfieldconfiguratortemplateaddon",
-        "cmswebservices",
-        "smarteditwebservices",
-        "cmssmarteditwebservices",
-        "permissionswebservices",
-        "smarteditaddon",
         "cmssmartedit",
+        "cmssmarteditwebservices",
+        "cmswebservices",
+        "permissionswebservices",
+        "previewwebservices",
+        "smarteditwebservices",
         "cmsbackoffice",
-        "cmsoccaddon",
-        "consignmenttrackingaddon",
-        "consignmenttrackingmock",
-        "consignmenttrackingbackoffice",
-        "notificationaddon",
-        "customerinterestsaddon",
-        "stocknotificationaddon",
-        "configurablebundleaddon",
-        "previewpersonalizationweb",
-        "personalizationcmsweb",
-        "personalizationsmartedit",
-        "personalizationpromotionssmartedit",
-        "personalizationsampledataaddon",
-        "personalizationpromotionssampledataaddon",
-        "personalizationyprofile",
-        "personalizationpromotions",
-        "personalizationpromotionsweb",
-        "personalizationservicesbackoffice",
-        "personalizationpromotionsbackoffice",
-        "personalizationcmsbackoffice",
-        "personalizationintegrationbackoffice",
-        "personalizationsearchbackoffice",
-        "personalizationsearchsmartedit",
-        "personalizationsearchweb",
-        "personalizationsearchsamplesaddon",
-        "personalizationyprofilesampledataaddon",
-        "personalizationaddon",
-        "pcmbackofficesamplesaddon",
-        "xyformsbackoffice",
-        "xyformsstorefrontcommons",
-        "xyformssamples",
-        "xyformsweb",
-        "platformbackoffice",
-        "orbeonweb",
-        "consignmenttrackingoccaddon",
-        "customerinterestsoccaddon",
-        "notificationoccaddon",
-        "kymaintegrationbackoffice",
-        "outboundservices",
-        "outboundsync",
+        "b2bcommercebackoffice",
+        "wishlist",
+        "adaptivesearchsamplesaddon",
+        "acceleratorwebservicesaddon",
+        "orderselfserviceaddon",
+        "commerceorgsamplesaddon",
+        "promotionenginesamplesaddon",
+        "smarteditaddon",
+        "b2bacceleratoraddon",
+        "commerceorgaddon",
+        "assistedservicestorefront",
+        "assistedservicefacades",
         "odata2webservices",
-        "odata2webservicesfeaturetests",
         "integrationbackoffice",
-        "integrationmonitoringbackoffice",
-        "outboundsyncbackoffice",
-        "merchandisingaddon",
-        "merchandisingcmswebservices",
-        "merchandisingsmartedit",
-        "merchandisingservices",
-        "merchandisingservicesbackoffice",
-        "merchandisingstorefrontsampledataaddon"
+        "apiregistrybackoffice",
+        "sapcpiadapter",
+        "sapcpiproductexchange",
+        "sapcpicustomerexchange",
+        "sapcpicustomerexchangeb2b",
+        "sapcustomerb2b",
+        "sapcustomerb2c",
+        "sapcoreconfiguration",
+        "sapmodel",
+        "sapcore",
+        "sapcoretest",
+        "sapcoreaddon",
+        "cloudhotfolder",
+        "azurecloudhotfolder",
+        "azurecloud",
+        "backofficesolrsearch"
     ],
     "storefrontAddons": [
         {
-            "addon": "customerticketingaddon",
-            "storefront": "trainingstorefront",
+            "addon": "b2bacceleratoraddon",
+            "storefront": "yacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "commerceorgaddon",
+            "storefront": "yacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "acceleratorwebservicesaddon",
+            "storefront": "yacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "orderselfserviceaddon",
+            "storefront": "yacceleratorstorefront",
             "template": "yacceleratorstorefront"
         },
         {
             "addon": "smarteditaddon",
-            "storefront": "trainingstorefront",
+            "storefront": "yacceleratorstorefront",
             "template": "yacceleratorstorefront"
         },
         {
             "addon": "assistedservicestorefront",
-            "storefront": "trainingstorefront",
+            "storefront": "yacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "sapcoreaddon",
+            "storefront": "yacceleratorstorefront",
             "template": "yacceleratorstorefront"
         }
     ],
@@ -117,12 +97,12 @@
                     "contextPath": "/hac"
                 },
                 {
-                    "name": "mediaweb",
-                    "contextPath": "/medias"
+                    "name": "smartedit",
+                    "contextPath": "/smartedit"
                 },
                 {
                     "name": "backoffice",
-                    "contextPath": ""
+                    "contextPath": "/backoffice"
                 }
             ]
         },
@@ -148,10 +128,6 @@
                 {
                     "key":"storefrontContextRoot",
                     "value":""
-                },
-                                {
-                    "key":"storefront.wro4j.enabled",
-                    "value":"true"
                 }
             ],
             "webapps": [
@@ -160,7 +136,7 @@
                     "contextPath": "/medias"
                 },
                 {
-                    "name": "trainingstorefront",
+                    "name": "yacceleratorstorefront",
                     "contextPath": ""
                 },
                 {
@@ -171,11 +147,10 @@
         },
         {
             "name": "backgroundProcessing",
-            "properties": [],
             "webapps": [
                 {
                     "name": "hac",
-                    "contextPath": ""
+                    "contextPath": "/hac"
                 },
                 {
                     "name": "mediaweb",
