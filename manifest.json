@@ -52,44 +52,7 @@
         "backofficesolrsearch",
         "yacceleratorstorefront"
     ],
-    "storefrontAddons": [
-        {
-            "addon": "b2bacceleratoraddon",
-            "storefront": "yacceleratorstorefront",
-            "template": "yacceleratorstorefront"
-        },
-        {
-            "addon": "commerceorgaddon",
-            "storefront": "yacceleratorstorefront",
-            "template": "yacceleratorstorefront"
-        },
-        {
-            "addon": "acceleratorwebservicesaddon",
-            "storefront": "yacceleratorstorefront",
-            "template": "yacceleratorstorefront"
-        },
-        {
-            "addon": "orderselfserviceaddon",
-            "storefront": "yacceleratorstorefront",
-            "template": "yacceleratorstorefront"
-        },
-        {
-            "addon": "smarteditaddon",
-            "storefront": "yacceleratorstorefront",
-            "template": "yacceleratorstorefront"
-        },
-        {
-            "addon": "assistedservicestorefront",
-            "storefront": "yacceleratorstorefront",
-            "template": "yacceleratorstorefront"
-        },
-        {
-            "addon": "sapcoreaddon",
-            "storefront": "yacceleratorstorefront",
-            "template": "yacceleratorstorefront"
-        }
-    ],
-         "aspects": [
+    "aspects": [
         {
             "name": "backoffice",
             "webapps": [
@@ -116,7 +79,7 @@
                 },
                 {
                     "key": "spring.session.yacceleratorstorefront.save",
-                    "value":"async"
+                    "value": "async"
                 },
                 {
                     "key": "spring.session.yacceleratorstorefront.cookie.name",
@@ -127,8 +90,8 @@
                     "value": "/"
                 },
                 {
-                    "key":"storefrontContextRoot",
-                    "value":""
+                    "key": "storefrontContextRoot",
+                    "value": ""
                 }
             ],
             "webapps": [
