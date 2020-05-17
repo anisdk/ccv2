@@ -1,5 +1,6 @@
 {
     "commerceSuiteVersion": "1808",
+    "enableImageProcessingService": true,
     "extensions": [
         "smartedit",
         "backoffice",
