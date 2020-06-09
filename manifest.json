@@ -1,6 +1,5 @@
 {
     "commerceSuiteVersion": "1905.7",
-    "enableImageProcessingService": true,
     "extensions": [
         "apparelstore"
         "electronicsstore"
