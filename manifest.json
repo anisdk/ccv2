@@ -9,6 +9,7 @@
         "apiregistrybackoffice",
         "apiregistryservices",
         "apparelstore",
+        "assistedservicestorefront",
         "cmsbackoffice",
         "cmsoccaddon",
         "cmssmartedit",
@@ -64,6 +65,11 @@
         "merchandisingstorefrontsampledataaddon"
     ],
     "storefrontAddons": [
+        {
+            "addon": "assistedservicestorefront",
+            "storefront": "yacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
         {
             "addon": "personalizationpromotionssampledataaddon",
             "storefront": "yacceleratorstorefront",
