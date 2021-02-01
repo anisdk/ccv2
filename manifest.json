@@ -99,7 +99,7 @@
             "addon": "cmsoccaddon",
             "storefront": "ycommercewebservices",
             "template": "ycommercewebservices"
-        },
+        }
     ],
     "properties": [
         {
