@@ -1,0 +1,11 @@
+#Ant properties
+#Thu Nov 29 14:17:13 GMT 2018
+builddate=20181129 1417
+description=secondweb
+group.id=de.hybris.platform
+module.name=platform-module
+name=secondweb
+releasedate=20181129 1417
+vendor=hybris
+version=18.11
+version.api=1811

@@ -1,6 +1,8 @@
 {
     "commerceSuiteVersion": "2005",
     "extensions": [
+        "firstweb",
+        "secondweb",
         "adaptivesearchbackoffice",
         "adaptivesearchfacades",
         "adaptivesearchsamplesaddon",
@@ -54,8 +56,6 @@
         "smarteditaddon",
         "smarteditwebservices",
         "solrserver",
-        "yacceleratorfulfilmentprocess",
-        "yacceleratorstorefront",
         "ycommercewebservices",
         "merchandisingaddon",
         "merchandisingcmswebservices",
@@ -67,47 +67,52 @@
     "storefrontAddons": [
         {
             "addon": "assistedservicestorefront",
-            "storefront": "yacceleratorstorefront",
+            "storefront": "firstweb",
             "template": "yacceleratorstorefront"
         },
         {
             "addon": "personalizationpromotionssampledataaddon",
-            "storefront": "yacceleratorstorefront",
+            "storefront": "firstweb",
             "template": "yacceleratorstorefront"
         },
         {
             "addon": "personalizationsampledataaddon",
-            "storefront": "yacceleratorstorefront",
+            "storefront": "firstweb",
             "template": "yacceleratorstorefront"
         },
         {
             "addon": "smarteditaddon",
-            "storefront": "yacceleratorstorefront",
+            "storefront": "firstweb",
             "template": "yacceleratorstorefront"
         },
         {
             "addon": "adaptivesearchsamplesaddon",
-            "storefront": "yacceleratorstorefront",
+            "storefront": "firstweb",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "adaptivesearchsamplesaddon",
+            "storefront": "secondweb",
             "template": "yacceleratorstorefront"
         },
         {
             "addon": "multicountrysampledataaddon",
-            "storefront": "yacceleratorstorefront",
+            "storefront": "firstweb",
             "template": "yacceleratorstorefront"
         },
         {
             "addon": "personalizationsearchsamplesaddon",
-            "storefront": "yacceleratorstorefront",
+            "storefront": "firstweb",
             "template": "yacceleratorstorefront"
         },
         {
             "addon": "personalizationaddon",
-            "storefront": "yacceleratorstorefront",
+            "storefront": "firstweb",
             "template": "yacceleratorstorefront"
         },
         {
             "addon": "profiletagaddon",
-            "storefront": "yacceleratorstorefront",
+            "storefront": "firstweb",
             "template": "yacceleratorstorefront"
         },
         {
@@ -117,12 +122,12 @@
         },
         {
             "addon": "merchandisingaddon",
-            "storefront": "yacceleratorstorefront",
+            "storefront": "firstweb",
             "template": "yacceleratorstorefront"
         },
         {
             "addon": "merchandisingstorefrontsampledataaddon",
-            "storefront": "yacceleratorstorefront",
+            "storefront": "firstweb",
             "template": "yacceleratorstorefront"
         }
     ],
@@ -258,26 +263,6 @@
             "name": "accstorefront",
             "properties": [
                 {
-                    "key": "spring.session.enabled",
-                    "value": "true"
-                },
-                {
-                    "key": "spring.session.yacceleratorstorefront.save",
-                    "value": "async"
-                },
-                {
-                    "key": "spring.session.yacceleratorstorefront.cookie.name",
-                    "value": "JSESSIONID"
-                },
-                {
-                    "key": "spring.session.yacceleratorstorefront.cookie.path",
-                    "value": "/"
-                },
-                {
-                    "key": "storefrontContextRoot",
-                    "value": ""
-                },
-                {
                     "key": "xss.filter.header.X-Frame-Options",
                     "value": ""
                 }
@@ -286,10 +271,6 @@
                 {
                     "name": "mediaweb",
                     "contextPath": "/medias"
-                },
-                {
-                    "name": "yacceleratorstorefront",
-                    "contextPath": ""
                 },
                 {
                     "name": "acceleratorservices",
