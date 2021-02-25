@@ -34,7 +34,6 @@
         "personalizationpromotionsweb",
         "personalizationsampledataaddon",
         "personalizationsearch",
-        "personalizationsearchsamplesaddon",
         "personalizationsearchsmartedit",
         "personalizationsearchweb",
         "personalizationservices",
@@ -86,11 +85,6 @@
         },
         {
             "addon": "multicountrysampledataaddon",
-            "storefront": "yacceleratorstorefront",
-            "template": "yacceleratorstorefront"
-        },
-        {
-            "addon": "personalizationsearchsamplesaddon",
             "storefront": "yacceleratorstorefront",
             "template": "yacceleratorstorefront"
         },
