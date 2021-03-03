@@ -273,14 +273,6 @@
                     "contextPath": "/medias"
                 },
                 {
-                    "name": "firstweb",
-                    "contextPath": "/firstweb"
-                },
-                {
-                    "name": "secondweb",
-                    "contextPath": "/secondweb"
-                },
-                {
                     "name": "acceleratorservices",
                     "contextPath": "/acceleratorservices"
                 },
