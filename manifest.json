@@ -3,6 +3,8 @@
     "extensions": [
         "firstweb",
         "secondweb",
+        "thirdweb",
+        "fourthweb",
         "adaptivesearchbackoffice",
         "adaptivesearchfacades",
         "adaptivesearchsamplesaddon",
@@ -271,6 +273,14 @@
                 {
                     "name": "mediaweb",
                     "contextPath": "/medias"
+                },
+                {
+                    "name": "thirdweb",
+                    "contextPath": "/thirdweb"
+                },
+                {
+                    "name": "fourthweb",
+                    "contextPath": "/fourthweb"
                 },
                 {
                     "name": "acceleratorservices",
