@@ -1,5 +1,5 @@
 {
-    "commerceSuiteVersion": "2011",
+    "commerceSuiteVersion": "2005",
     "extensions": [
         "adaptivesearchbackoffice",
         "adaptivesearchfacades",
