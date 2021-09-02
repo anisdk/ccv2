@@ -183,12 +183,21 @@
 
     <extension name="b2bocc" />
 
-<!-- Sample Extensions -->
+    <!-- ISS -->
+    <extension name='merchandisingaddon' />
+    <extension name='merchandisingcmswebservices' />
+    <extension name='merchandisingsmartedit' />
+    <extension name='merchandisingservices' />
+    <extension name='merchandisingservicesbackoffice' />
+    <extension name='merchandisingstorefrontsampledataaddon' />
+    <extension name='profiletagaddon' />
+
+    <!-- Sample Extensions -->
     <extension name='spartacussampledata' />
-<!--<extension name='kiwi' />
+    <!--<extension name='kiwi' />
     <extension name='tiger'/> -->
 
-<!-- If you want to test Cloud Hot Folders locally download the extensions from https://launchpad.support.sap.com/#/notes/2817992 and uncomment the following -->
+    <!-- If you want to test Cloud Hot Folders locally download the extensions from https://launchpad.support.sap.com/#/notes/2817992 and uncomment the following -->
     <!--<extension name='azurecloudhotfolder' />
     <extension name='cloudcommons' />
     <extension name='cloudhotfolder' />-->
