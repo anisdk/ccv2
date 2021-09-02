@@ -9,6 +9,7 @@ import { ProductBulkPricingFeatureModule } from './features/product/product-bulk
 import { ProductVariantsFeatureModule } from './features/product/product-variants-feature.module';
 import { CartSavedCartFeatureModule } from './features/cart/cart-saved-cart-feature.module';
 import { AsmFeatureModule } from './features/asm/asm-feature.module';
+import { CdsFeatureModule } from './features/cds/cds-feature.module';
 
 @NgModule({
   declarations: [],
@@ -108,6 +109,7 @@ import { AsmFeatureModule } from './features/asm/asm-feature.module';
     ProductVariantsFeatureModule,
     CartSavedCartFeatureModule,
     AsmFeatureModule,
+    CdsFeatureModule,
   ]
 })
 export class SpartacusFeaturesModule { }

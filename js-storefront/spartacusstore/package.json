@@ -34,6 +34,7 @@
     "@spartacus/asm": "3.4.0",
     "@spartacus/assets": "^3.4.0",
     "@spartacus/cart": "^3.4.0",
+    "@spartacus/cds": "^3.4.4",
     "@spartacus/core": "^3.4.0",
     "@spartacus/product": "^3.4.0",
     "@spartacus/setup": "^3.4.0",

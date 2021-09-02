@@ -1331,6 +1331,13 @@
   dependencies:
     tslib "^2.0.0"
 
+"@spartacus/cds@^3.4.4":
+  version "3.4.4"
+  resolved "https://registry.yarnpkg.com/@spartacus/cds/-/cds-3.4.4.tgz#a299076a08eccf6100f1b2f487b79cb1f4326816"
+  integrity sha512-uyCjlQes+Q8pNuH2pZMHQpMtirDDqmWXv/Fc1MlRoQqzbks1UoYPb8zEPrvqwtjalDQUvKvN2NoDelBy7A/V/w==
+  dependencies:
+    tslib "^2.0.0"
+
 "@spartacus/core@^3.4.0":
   version "3.4.0"
   resolved "https://registry.yarnpkg.com/@spartacus/core/-/core-3.4.0.tgz#9b93705e37f877678d33133599a3389d7d3590dc"
