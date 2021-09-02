@@ -105,6 +105,21 @@
             "addon": "personalizationaddon",
             "storefront": "yacceleratorstorefront",
             "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "profiletagaddon",
+            "storefront": "yacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "merchandisingaddon",
+            "storefront": "yacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "merchandisingstorefrontsampledataaddon",
+            "storefront": "yacceleratorstorefront",
+            "template": "yacceleratorstorefront"
         }
     ],
     "aspects": [
@@ -280,6 +295,14 @@
                 {
                     "name": "personalizationsearchsmartedit",
                     "contextPath": "/personalizationsearchsmartedit"
+                },
+                {
+                    "name": "merchandisingsmartedit",
+                    "contextPath": "/merchandisingsmartedit"
+                },
+                {
+                    "name": "merchandisingcmswebservices",
+                    "contextPath": "/merchandisingcmswebservices"
                 }
             ]
         }
