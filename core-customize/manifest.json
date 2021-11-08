@@ -233,6 +233,10 @@
                     "contextPath": "/hac"
                 },
                 {
+                    "name": "assistedservicewebservices",
+                    "contextPath": "/assistedservicewebservices"
+                },
+                {
                     "name": "commercewebservices",
                     "contextPath": "/occ"
                 },
