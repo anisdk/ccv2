@@ -10,9 +10,9 @@
 	<enumtypes>
 		<enumtype code="CustomEnum" autocreate="true" generate="true" jaloclass="de.hybris.platform.jalo.enumeration.EnumerationValue">
 			<value code="FIRST" />
-			<value code="SECOND" />
+			<!-- <value code="SECOND" /> -->
 			<value code="THIRD" />
-			<value code="FOURTH" />
+			<!-- <value code="FOURTH" /> -->
 			<value code="FIFTH" />
 		</enumtype>
 	</enumtypes>
