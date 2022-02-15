@@ -1,7 +1,6 @@
 {
     "commerceSuiteVersion": "2011",
     "extensions": [
-        "customcore",
         "adaptivesearchbackoffice",
         "adaptivesearchfacades",
         "adaptivesearchsamplesaddon",
